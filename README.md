@@ -12,7 +12,7 @@ sbt assembly
 ```
 Upon successful execution, the output JAR will be available in the directory _target/scala-\<version\>_.
 
-You can replace the path to _hive-exec.jar_ with that of yours by modifying the below line in the file _build.sbt_.
+The path to _hive-exec.jar_ is hard-coded with the value _/usr/lib/hive/lib/hive-exec.jar_. You can replace it with that of yours by modifying the below line in the file _build.sbt_.
 ```
 unmanagedJars in Compile += file("/usr/lib/hive/lib/hive-exec.jar")
 ```
