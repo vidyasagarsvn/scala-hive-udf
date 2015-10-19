@@ -17,3 +17,4 @@ The path to _hive-exec.jar_ is hard-coded with the value _/usr/lib/hive/lib/hive
 unmanagedJars in Compile += file("/usr/lib/hive/lib/hive-exec.jar")
 ```
 
+I have explained this in a bit more detail [here](https://questforthought.wordpress.com/2015/10/19/building-hive-udfs-using-scala-sbt/)
